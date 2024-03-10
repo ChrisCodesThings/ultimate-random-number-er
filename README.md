@@ -6,7 +6,7 @@
 
 Ultimate Random Numberer provides many extensions to the very basic `Math.random()` function.
 
-In its basic form it can be called simply with a range and it will return a single random number in that range. 
+In its basic form it can be called simply with a range and it will return a single random number in that range. It works as a simple function and does not initalize a new object.
 
 In its extended form, it returns a class enabling more advanced features.
 

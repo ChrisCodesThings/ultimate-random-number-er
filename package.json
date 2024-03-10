@@ -33,7 +33,9 @@
     "version": "auto-changelog -p && git add CHANGELOG.md",
     "postversion": "git push && git push --tags"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@chriscodesthings/randomize-array": "*"
+  },
   "devDependencies": {
     "auto-changelog": "*",
     "jest": "*"

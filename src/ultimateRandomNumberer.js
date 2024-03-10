@@ -1,4 +1,4 @@
-//import randomizeArray from '@chriscodesthings/randomize-array';
+import randomizeArray from '@chriscodesthings/randomize-array';
 
 function order(n1, n2) {
     return [n1 < n2 ? n1 : n2, n1 >= n2 ? n1 : n2];

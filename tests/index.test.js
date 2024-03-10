@@ -1,13 +1,6 @@
 
 const { default: testFunc } = await import("../");
 
-describe("this needs to pass", () => {
-    test("true is true", () => {
-        expect(true).toBe(true);
-    });
-});
-
-/*
 describe("basic random number tests", () => {
     test("invalid input", async () => {
         expect(testFunc("foo", "bar")).toBeUndefined();
@@ -73,4 +66,3 @@ describe("many full ranges without repetition", () => {
         });
     }
 });
-*/
