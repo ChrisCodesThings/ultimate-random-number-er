@@ -1,6 +1,6 @@
 {
   "name": "@chriscodesthings/ultimate-random-number-er",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Generates random numbers with options for ranges, repetition, past and future sequences ... and more!",
   "keywords": [
     "random",
