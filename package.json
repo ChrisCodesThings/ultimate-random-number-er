@@ -1,15 +1,17 @@
 {
-  "name": "@chriscodesthings/stub-repo",
+  "name": "@chriscodesthings/ultimate-random-number-er",
   "version": "0.1.0",
-  "description": "npm package template",
+  "description": "Generates random numbers with options for ranges, repetition, past and future sequences ... and more!",
   "keywords": [
-    "stub",
-    "package",
-    "template"
+    "random",
+    "number",
+    "range",
+    "sequence",
+    "history"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChrisCodesThings/stub-repo.git"
+    "url": "git+https://github.com/ChrisCodesThings/ultimate-random-number-er.git"
   },
   "main": "index.js",
   "type": "module",
@@ -23,7 +25,7 @@
     "node": ">=18.0.0"
   },
   "bugs": {
-    "url": "https://github.com/ChrisCodesThings/stub-repo/issues"
+    "url": "https://github.com/ChrisCodesThings/ultimate-random-number-er/issues"
   },
   "scripts": {
     "test": "NODE_OPTIONS='--experimental-vm-modules' jest",
