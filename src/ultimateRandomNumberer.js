@@ -71,20 +71,20 @@ class UltimateRandomNumberer {
     }
 }
 
-export default function (n1, n2 = 0, options = {}) {
+export default function (n1, n2 = 0, options) {
     if (typeof n1 !== 'number' || typeof n2 !== 'number') {
         return;
     }
 
     [n1, n2] = order(n1, n2);
 
+    if (typeof options === 'undefined') {
+        return aRandomNumber(n1, n2);
+    }
+
     // Default options
     options.repeat ??= true;
     options.history ??= false;
-
-    if (options.repeat && !options.history) {
-        return aRandomNumber(n1, n2);
-    }
 
     return new UltimateRandomNumberer(n1, n2, options);
 }
