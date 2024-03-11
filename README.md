@@ -76,7 +76,7 @@ Returns the Ultimate Random Numberer class.
 
 # Methods
 
-## number
+## number()
 
 ### Description
 
