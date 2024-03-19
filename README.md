@@ -53,7 +53,7 @@ Ranges are inclusive of the upper and lower limits.
 ```js
 import ultimateRandom from '@chriscodesthings/ultimate-random-number-er';
 
-const random = ultimateRandom(10,20, { options });
+const random = ultimateRandom({ options });
 
 console.log(random.number());
 // => 12
