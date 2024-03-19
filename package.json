@@ -34,7 +34,8 @@
     "postversion": "git push && git push --tags"
   },
   "dependencies": {
-    "@chriscodesthings/randomize-array": "^1.0.0"
+    "@chriscodesthings/randomize-array": "^1.0.0",
+    "seedrandom": "^3.0.5"
   },
   "devDependencies": {
     "auto-changelog": "^2.4.0",
